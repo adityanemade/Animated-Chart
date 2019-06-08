@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animated Chart</title>
+
+    <!-- TODO: implement necessary styling -->
+    <style>
+      game-chart .chart-container.vertical{
+        display: flex;
+        align-items: flex-end;
+      }
+    </style>
+</head>
+<body>
+    <h1>Animated chart</h1>
+
+    <game-chart></game-chart>
+
+    <label for="color">Color:</label>
+    <input type="color" value="" name="" id="color"/>
+    <label for="buffer_size">Buffer Size: </label>
+    <input type="number" value="" name="" id="buffer_size"/>
+    <div>Display Style:</div>
+    <label for="style_vertical">Vertical</label>
+    <input type="radio" value="vertical" name="display_style" id="style_vertical"/>
+    <label for="style_horizontal">Horizontal</label>
+    <input type="radio" value="horizontal" name="display_style" id="style_horizontal"/>
+    <button id="change_button">Change me!</button
+
+    <script src="dest/app.bundle.js"></script>
+</body>
+</html>
